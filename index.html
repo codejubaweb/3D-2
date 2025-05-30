@@ -2,7 +2,7 @@
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
-    <title>عرض سيارة ثلاثية الأبعاد</title>
+    <title>عرض نموذج ثلاثي الأبعاد</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
       body {
@@ -11,7 +11,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #e0e0e0;
+        background-color: #f0f0f0;
         font-family: sans-serif;
       }
       model-viewer {
@@ -30,16 +30,15 @@
     </style>
   </head>
   <body>
-    <div class="title">🚗 نموذج سيارة ثلاثي الأبعاد</div>
+    <div class="title">🌐 عرض نموذج ثلاثي الأبعاد</div>
     <model-viewer 
-      src="car.glb" 
-      alt="نموذج سيارة ثلاثي الأبعاد" 
+      src="model.glb" 
+      alt="نموذج ثلاثي الأبعاد" 
       auto-rotate 
       camera-controls 
       shadow-intensity="1" 
-      exposure="1" 
-      ar 
-      interaction-prompt="auto">
+      exposure="1"
+      ar>
     </model-viewer>
   </body>
 </html>
